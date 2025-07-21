@@ -1,0 +1,9 @@
+# Ignore executable files in all directories
+*.exe
+*.EXE
+
+# Ignore help files
+*.hlp
+*.HLP
+*.tbh
+*.TBH
