@@ -28,7 +28,7 @@ The comparison was conducted using GitHub Copilot Agent and the latest models: S
 Most programs were generated successfully on the first try. However, I occasionally had to prompt (mostly GPTs) to fix minor syntax errors, such as using numbered empty lines or disallowed variable names.
 
 ## Solutions
-My [source code](https://github.com/marcinmachura/MeVsAi/tree/main/FunWithFlags/) can be downloaded and tested locally. Just download [doxbox](https://www.dosbox.com/), [GW-Basic](https://gw-basic.com/) and you can run it with the following command:
+My [source code](https://github.com/marcinmachura/MeVsAi/tree/main/FunWithFlags/2025-07-21) can be downloaded and tested locally. Just download [doxbox](https://www.dosbox.com/), [GW-Basic](https://gw-basic.com/) and you can run it with the following command:
 > dosbox -noconsole -c "mount c ." -c "c:" -c "GWBASIC.EXE canada.bas"
  
 ### TL;DR

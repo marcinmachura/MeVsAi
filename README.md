@@ -1,7 +1,7 @@
 # Collection of niche tests for AGI
 Repo where I put my ad-hoc tests on how far we are from AGI.
 ## Tasks
-1. [Can LLM draw a flag?](https://github.com/marcinmachura/MeVsAi/tree/main/FunWithFlag)
+1. [Can LLM draw a flag?](https://github.com/marcinmachura/MeVsAi/blob/main/FunWithFlags/2025-07-21/FunWithFlagsJuly2025.md)
 
 ## Running DOS programs
 
