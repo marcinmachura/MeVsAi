@@ -37,7 +37,7 @@ GPT4o < GPT4 < Gemini <= Sonnet4
 Also GPT4.1 hanged once during code generation.
 
 
-| Country   | Sonnet 4 | Gemini | GPT 4o | GPT 4.1 |
+| Country   | Sonnet 4 | Gemini 2.5Pro | GPT 4o | GPT 4.1 |
 |-----------|----------|--------|--------|---------|
 | **Canada**   | ![](imgs/canada_sonnet4.png)  | ![](imgs/canada_gemini.png)  | ![](imgs/canada_gpt4o.png)     | ![](imgs/canada_gpt41.png)         |
 | **France**   | ![](imgs/france_sonnet4.png)  | ![](imgs/france_gemini.png)  | ![](imgs/france_gpt4o.png)     | ![](imgs/france_gpt41.png)         |
