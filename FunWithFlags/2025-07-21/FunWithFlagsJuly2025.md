@@ -14,7 +14,7 @@ It’s retro computing, but there is actually plenty of information online about
 The language itself is quite straightforward, with a short list of statements, no external libraries, and support for both graphical output and playing musical notes.
 
 I’ve got to admit, lately I’m genuinely impressed. LLMs have come a long way when it comes to drawing in GW-BASIC. Everything actually runs now, and most of the flags are easy enough to recognise, even without any corrections. It’s still not as good as when these models generate SVGs, but the progress is pretty impressive.
-To make things a bit more interesting, I tried asking the model to play a national anthem too. That’s where things get so bad that it is hilarious, clearly, there’s still a lot of work to do here. Maybe another benchark for playing MusiXTeX files?:)
+To make things a bit more interesting, I tried asking the model to play a national anthem too. That’s where things get so bad that it is hilarious, clearly, there’s still a lot of work to do here. Maybe another benchmark for playing MusiXTeX files?:)
 
 ## The Problem
 I create a simple prompt: 
