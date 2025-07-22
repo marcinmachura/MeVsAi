@@ -1,0 +1,46 @@
+
+Please create a GW-BASIC program which draws (in EGA mode) flag of Poland and plays (with PLAY command) polish anthem.
+
+
+
+
+Please create a GW-BASIC program usa.bas which draws (in EGA mode) American flag and plays (with PLAY command) US anthem
+
+
+AI can't whistle....
+.. but it can draw.
+
+I used to have my favorite benchmark for LLMs if they do anything more than copying what they saw on internet: "Please draw(*) Canadian flag".  Where draw in this context means: generate a GW-BASIC program that draws Canadian flag.
+You can also try to ask for generating SVG file, but it is easier for LLM as recently they started trainig it in vector graphics. So I was asking for GW-BASIC programs.
+Why GW-BASIC? First of all - nostalgia - it was a my first programming languages more than 3 decades ago. 
+It is retro computing, but actually there are plenty of materials on the internet about how it works. And it is very simple, like full list of statements is short, no external libraries, just simple language with build-in syntax for drawing and playing musical notes. And LLMs were faling miserably, but recently they got much better. 
+
+So I create a simple task: "Please create a GW-BASIC program poland.bas which draws (in EGA mode) Polish flag and plays (with PLAY command) Polish anthem". I tried it with GitHub Copilot and latest models: Sonnet4, GPT4.1, GPT4o, 
+For few countries: Poland, France, Germany (very simple flags), UK, Canda, USA (complex flags), Vietnam & Morroco (simple flags with one medium-complex element).
+
+Outcome is the following
+1. LLMs get better with GW-BASIC, like most programs works out of the box. Sometimes they made stupid errors like empty line with nubmer or using underscore in variable names. 
+2. LLMs get much better in drawing. Actually all LLMs were able to make all flags close enought to the orginals that you can recoginze which country it belongs to
+3. LLMs are horrible in playing music. 
+
+Why this problem is interesting? On one hand it is very niche and I really doubt that there are many examples of GW-BASIC code within LLMs training corpus. It is not a LeetCode. On the other hand all tasks (how the flag looks like, what is the anthem and GW-BASIC programming) are simple. LLM has just to "connect dots". And it is not as good in this as we were expecting but it is getting better.
+
+I don't include anthem recordings here, as they are mostly complety random notes. LLMs doesn't really care about tempo, note length of switchin octaves. Just thinks in do-re-mi terms. 
+However it is clear that UK anthem code is usually the most fidel (because it is simplest?) and USA follows (most popular?) However there is one bizzare outcome. Sonnet4 for Germany creates a very good version of "Ode to Joy" which is not a Germans anthem, but rather anthem of European Union. Unintentionally (?) it becomes political here:)
+
+
+
+Source code:
+* link
+* GitHub Copilot Agent's mode
+* I was asking for fixing syntax it there were small mistakes (empty lines, etc)
+===
+GPT4.1 is the worst  < GPT4 < Gemini <= Sonnet4
+like gpt4.1 actually hanged in the code generation
+
+
+
+
+===
+Reading and displaying BMP
+writing its source
