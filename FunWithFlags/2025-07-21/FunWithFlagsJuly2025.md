@@ -51,11 +51,11 @@ Also GPT4.1 hanged once during code generation.
 ### Anthems and other issues
 The anthems were mostly horribly wrong(*), but the UK and USA versions were more memorable since I could recognize their opening bars in both Sonnet4 and Gemini4. 
 
-Interestingly, both Gemini and GPT4o played "Ode to Joy" instead of Germany's actual anthem, which is a political statement:) since it's the EU anthem. It was also the most accurate musically.
+Interestingly, both Gemini and GPT4o played "Ode to Joy", which is EU's anthem, instead of Germany's actual anthem :). It was also the most accurate musically.
 
 Sometimes, like with Poland+Sonnet4 and UK+Sonnet4, the programs drew flags pixel by pixel rather than using line or box commands, which slowed things down; LINE was used more often than the more versatile DRAW command. 
 
-(*) I didn't compare the Vietnamese and Moroccan anthems, as I'm not familiar with their melodies.
+(*) I didn't compare the Vietnamese and Moroccan anthems, as I'm not familiar with their melodies enougth to catch how similary playback is.
 
 ### Other
 With Sonnet4 I also tried GDR/DDR and Stark banner/Game of Thrones melody. Genereted code is there.
