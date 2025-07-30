@@ -1,10 +1,10 @@
 # Programowanie / niezła sztuka
+[English translation](0-EN-software-eng.md) (by AI)
 
 Donald Knuth napisał kiedyś bardzo wartościową i skondensowaną książke "Sztuka programowania", tak że ta analogia jest już zajęta. Dlatego zacznę od tego czym programowanie nie jest: programowanie nie polega na tym by w jak najbardziej optymalny sposób instrukcjami maszynowymi wycisnąć ostatnie poty z jednostki centralnej (CPU) komputera. Owszem, w bardzo specyficznych zadaniach ta wiedza się przydaje, ale w praktyce cały kod jest tworzony przez kompilator, ktory dużo lepiej operuje na kodzie maszynowym i wszystkich detalach konkretnej architektury. Jak ktoś ostatni raz programował 16bitowy assembler na i8086 to się może mocno zdziwić co dziś procesory potrafią.
 
-Programowanie w wielkim skrócie polega na przekładaniu niedokońca sprecyzowanych ludzkich pomysłów i zachcianek na język formalny, najlepiej tak by zachować możliwe niewielki stopień złożonośc/abstrakcji. Tzn. dużo trudniej jest napisać program w Pythone (niby najprostszym i niewydajnym języku) z rozmów z klientem, niż przepisać ten sam program w Pythonie do assemblera. Formalizm bowiem wymusza ubranie w kontkret wszystkich tych rzeczy i spraw o których nie myślimy definiując problem do rozwiązania. Owszem istnieją rozwiązania poprawne lepsze i gorsze: można przekombinować ze stopniem złożoności, dodać za dużo zależności będącymi potencjalnymi źródłami problemów, albo można po prostu zrobić coś bardzo niewydajnie. 
+Programowanie w wielkim skrócie polega na przekładaniu nie do końca sprecyzowanych ludzkich pomysłów i zachcianek na język formalny, najlepiej tak by zachować możliwe niewielki stopień złożonośc/abstrakcji. Tzn. dużo trudniej jest napisać program w Pythone (niby najprostszym i niewydajnym języku) z rozmów z klientem, niż przepisać ten sam program w Pythonie do assemblera. Formalizm bowiem wymusza ubranie w kontkret / werbalizację wszystkich tych rzeczy i spraw o których nie myślimy definiując problem do rozwiązania. Owszem istnieją rozwiązania poprawne lepsze i gorsze: można przekombinować ze stopniem złożoności, dodać za dużo zależności będącymi potencjalnymi źródłami problemów, albo można po prostu zrobić coś bardzo niewydajnie. A ma "po prostu działać"
 
-[!!!!!!!!!]
 
 ## O czym będzie ten artykuł?
 
