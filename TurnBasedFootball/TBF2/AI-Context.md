@@ -1,6 +1,7 @@
 # Turn-based football (V2) (2025-08-07)
 Generated with GitHub Copilot Sonnet 4
 
+![Hex grid](../images/TBF2.png)
 ## Initial prompt
 
 You are a planetary-grade 100x full stack developer. The following outlines the detailed plan to implement a turn-based football/soccer game using TypeScript for a web-based UI.

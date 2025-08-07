@@ -14,6 +14,7 @@ This process proved to be a valuable learning experience. My initial prompt aske
 
 So in the [next version has been created with much more refined prompt](TBF2\AI-Context.md). It almost work from the start. I had to only decrease a grid size and force it to be rendered correctly, not tilted (hexes are tricky) which actually took me few steps to force in on GitHub Copiliot.
 
+![Hex grid](images/TBF2.png)
 
 ## Related Work
 
