@@ -1,0 +1,43 @@
+{
+  "name": "tfb1",
+  "version": "1.0.0",
+  "description": "Turn-based football/soccer game with hexagonal grid",
+  "main": "dist/server/index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development",
+    "server": "ts-node src/server/index.ts",
+    "start": "npm run build && npm run server",
+    "dev:server": "ts-node --watch src/server/index.ts",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "football",
+    "soccer",
+    "turn-based",
+    "hexagonal",
+    "grid",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.2.0",
+    "@types/ws": "^8.18.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
