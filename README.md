@@ -5,6 +5,7 @@ Repo where I put my ad-hoc tests on how far we are from AGI.
 2. [My very old (2021) about a role of progamming languages](Blog/0-EN-software-eng.md)
 3. [Quine - can a program writes itself?](Blog/1-Quine.md)
 3. [DotNetVision - C# TurboVision clone](Blog/2-DotNetVision.md)
+4. [Turn-based football game](TurnBasedFootball/README.md)
 
 ## FAQ
 ### Running DOS programs
