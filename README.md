@@ -1,6 +1,6 @@
 # Collection of niche tests for AGI
 Repo where I put my ad-hoc tests on how far we are from AGI.
-## Tasks
+## Blog
 1. [Can LLM draw a flag?](https://github.com/marcinmachura/MeVsAi/blob/main/FunWithFlags/2025-07-21/FunWithFlagsJuly2025.md)
 2. [My very old (2021) about a role of progamming languages](Blog/0-EN-software-eng.md)
 3. [Quine - can a program writes itself?](Blog/1-Quine.md)
