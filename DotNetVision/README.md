@@ -1,3 +1,14 @@
+# How it started?
+Can we have a text-based editor in command line which uses nice UI?
+Like "good old TurboPascal"?
+
+There was something like that called XWPE but it is very old and right now unstable project.
+
+There is a great remake of TurboVision library with really amazing cross platform editor: https://github.com/magiblot/turbo
+
+And I asked if the Copilot can help me with that.
+
+
 # DotNetVision
 
 A TurboVision-inspired console UI library for .NET, bringing retro text-based user interface components to modern C# applications.
