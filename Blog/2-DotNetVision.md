@@ -27,9 +27,9 @@ It didn't really listen to the main prompt and just drew a rectangle with +-----
 ### Sonnet 4
 Actually did what I asked. It had several design problems that it couldn't solve initially. For example, flickering (so I had to tell it to use double buffering) and verification of whether/how it works—I had to recommend adding logging to the framework.
 
-But it worked. After multiple iterations and burning through a lot of LLM tokens, it created [DotNetVision](DotNetVision\README.md).
+But it worked. After multiple iterations and burning through a lot of LLM tokens, it created [DotNetVision](../DotNetVision/README.md).
 
-![DotNetVisionEditor](DotNetVision/DotNetVision8Aug2025.png).
+![DotNetVisionEditor](../DotNetVision/DotNetVision8Aug2025.png).
 
 What is interesting, Sonnet4 all by itself added perf tests to the project.
 
