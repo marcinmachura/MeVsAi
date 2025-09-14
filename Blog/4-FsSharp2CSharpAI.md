@@ -1,0 +1,18 @@
+# GitHub Copilot & legacy codebase: F# -> C# conversion story
+
+One of the things I decided to try during my garden leave was testing GitHub Copilot on a large real-life project: 2k projects / 20M LOCs in C# plus 100 projects / 55k LOCs in F#. It was a compute-intensive backend service, and the F# code, due to historical reasons, was at the center of it. My task for the AI was simple: starting from the leaf F# projects (with no downstream dependencies), convert the codebase to C#. After more than a week of supervised work with the AI agent (and burning through my entire GitHub Copilot premium quota), only 6 unit test projects had been successfully converted.
+
+The main issue is that AI agents don’t learn on the job—quite the opposite. In the same session, converting each subsequent project takes longer than the previous one, probably because the context gets diluted and the models start forgetting the instructions or skipping some test cases.
+
+Detailed findings:
+
+1. Initially I tried all 3 models (Gemini 2.5 Pro, GPT-5, and Sonnet-4):
+    * Gemini couldn’t finish a single project after 2 days of work. It sometimes got stuck in a cycle of changes going back and forth.
+    * Sonnet-4 was the smartest one and managed to finish a couple of projects. The problem was that sometimes it got too smart and made overly bold decisions, and it was very hard for it to automatically recover afterward.
+    * GPT-5 was the most solid, taking only very small steps. The problem was that in GitHub Copilot it performed extensive searches within the codebase, which took forever since the codebase was huge and all build output files were stored alongside the source.
+2. A clean build system is crucial. VS Code + Copilot works better on modern .NET projects and on projects where binaries are stored in a separate tree structure. Also, VS Code asks for permission on every single build, which is annoying. Visual Studio Copilot is better in that respect. Because the projects were originally old-style .NET, I tried to use AI to convert them to the new format. That failed miserably. The build configurations were probably too unique, too broken, and too fragile for the AI to learn how to do it correctly on new projects. That might actually be a good job-security strategy: making legacy build systems works with AI:)
+3. The generated code, despite instructions, didn’t always match the original source. Agents tended to rename classes to clean up naming conventions, which is a good thing to do—but only after achieving parity. They also tended to skip some tests, maybe due to diluted context. So, I had to manually remind the agents what the priorities were and point out the missing tests.
+4. The code conversion from F# to C# was surprisingly easy and produced very few mistakes, which the AI was able to resolve quickly. However, the boilerplate code and the overall idea of why the code was written that way were too hard for them to grasp, so without domain knowledge it would have been much harder to guide the agents.
+5. Agents lack common sense. For example, you must explicitly instruct them not to convert commented-out tests.
+
+My overall feeling after this experiment is that “productive vibe coding” is both fun and exhausting. It adds a gamification angle to software engineering: after a day of running 3 parallel sessions with Copilot, I felt mentally drained - like after playing a strategy game (Civilization / Transport Tycoon / Europa Universalis). It’s hard to do any mental work alongside vibe coding, but you can get a lot of physical exercise:)
