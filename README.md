@@ -6,6 +6,7 @@ Repo where I put my ad-hoc tests on how far we are from AGI.
 3. [Quine - can a program write itself?](Blog/1-Quine.md)
 4. [DotNetVision - C# TurboVision clone](Blog/2-DotNetVision.md)
 5. [Turn-based football game](TurnBasedFootball/TurnBasedFootball.md)
+6. [How GitHub Copilot deals with real-life problem on a legacy codebase](Blog-4FsSharpCSharpAI.md) 
 
 ## FAQ
 ### Running DOS programs

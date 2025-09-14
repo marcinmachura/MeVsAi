@@ -2,7 +2,7 @@
 
 One of the things I decided to try during my garden leave was testing GitHub Copilot on a large real-life project: 2k projects / 20M LOCs in C# plus 100 projects / 55k LOCs in F#. It was a compute-intensive backend service, and the F# code, due to historical reasons, was at the center of it. My task for the AI was simple: starting from the leaf F# projects (with no downstream dependencies), convert the codebase to C#. After more than a week of supervised work with the AI agent (and burning through my entire GitHub Copilot premium quota), only 6 unit test projects had been successfully converted.
 
-The main issue is that AI agents don’t learn on the job—quite the opposite. In the same session, converting each subsequent project takes longer than the previous one, probably because the context gets diluted and the models start forgetting the instructions or skipping some test cases.
+The main issue is that **AI agents don’t learn on the job—quite the opposite. In the same session, converting each subsequent project takes longer than the previous one**, probably because the context gets diluted and the models start forgetting the instructions or skipping some test cases.
 
 Detailed findings:
 
