@@ -7,6 +7,9 @@ Repo where I put my ad-hoc tests on how far we are from AGI.
 4. [DotNetVision - C# TurboVision clone](Blog/2-DotNetVision.md)
 5. [Turn-based football game](TurnBasedFootball/TurnBasedFootball.md)
 6. [How GitHub Copilot deals with real-life problem on a legacy codebase](Blog/4-FsSharp2CSharpAI.md) 
+7. [The AI/LLM Revolution Is Not Just About Hardware](Blog/7-AI-is-not-just-hardware.md)
+8. [Safe & Secure local coding agents for sensitive data](Blog/8-LocalCodingAgent.md)
+
 
 ## FAQ
 ### Running DOS programs
