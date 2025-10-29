@@ -18,6 +18,7 @@ You can run LLM chatbots on your private PC, fully locally, air-gapped—with no
 ## Chatbots
 
 For chatbot-like functionality, I recommend two alternative tools:
+
 a) [GPT4All](https://www.nomic.ai/gpt4all)
 ![GPT4ALL](localAI/gpt4all_chat.jpg)
 b) [Ollama](https://ollama.com/)
