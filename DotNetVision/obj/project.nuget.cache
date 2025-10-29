@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fvihbqpykr0=",
+  "success": true,
+  "projectFilePath": "/home/mmachura/src/local/MeVsAi/DotNetVision/DotNetVision.csproj",
+  "expectedPackageFiles": [
+    "/home/mmachura/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "/home/mmachura/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
