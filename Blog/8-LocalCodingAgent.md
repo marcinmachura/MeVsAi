@@ -2,6 +2,8 @@
 
 TL;DR: Install Visual Studio Code + Continue (plugin) and Ollama + llama3.1 model to get an offline coding assistant on your laptop (as long as it's reasonably modern). This makes it safe for use with medical, defense, and financial data.
 
+Update: it looks like latest (2025-11-18) GitHub Copilot supports local Ollama models as well.
+
 ## How?
 
 AI coding assistance might not do all the work for you, but it's an excellent tool. 
