@@ -1,20 +1,21 @@
 # Collection of niche tests for AGI
-Repo where I put my ad-hoc tests on how far we are from AGI.
+A repo where I put my ad-hoc tests to see how far we are from AGI.
 ## Blog
 1. [Can LLM draw a flag?](https://github.com/marcinmachura/MeVsAi/blob/main/FunWithFlags/2025-07-21/FunWithFlagsJuly2025.md)
-2. [My very old (2021) article about a role of progamming languages](Blog/0-EN-software-eng.md) (PL/EN)
+2. [My very old (2021) article about the role of programming languages](Blog/0-EN-software-eng.md) (PL/EN)
 3. [Quine - can a program write itself?](Blog/1-Quine.md)
 4. [DotNetVision - C# TurboVision clone](Blog/2-DotNetVision.md)
 5. [Turn-based football game](TurnBasedFootball/TurnBasedFootball.md)
-6. [How GitHub Copilot deals with real-life problem on a legacy codebase](Blog/4-FsSharp2CSharpAI.md) 
+6. [How GitHub Copilot deals with real-life problems in a legacy codebase](Blog/4-FsSharp2CSharpAI.md)
 7. [The AI/LLM Revolution Is Not Just About Hardware](Blog/7-AI-is-not-just-hardware.md)
 8. [Safe & Secure local coding agents for sensitive data](Blog/8-LocalCodingAgent.md)
+9. [What Was the Poet Thinking?](Blog/9-PL-Poezja.md)
 
 
 ## FAQ
 ### Running DOS programs
-1) DosBoX https://www.dosbox.com/
-2) GW-BASIC https://gw-basic.com/ (Microsoft made in open source recentlyv https://github.com/microsoft/GW-BASIC)
+1) DOSBox https://www.dosbox.com/
+2) GW-BASIC https://gw-basic.com/ (Microsoft recently released it as open source: https://github.com/microsoft/GW-BASIC)
 > dosbox -noconsole -c "mount c ." -c "c:" -c "GWBASIC.EXE canada.bas"
 
 

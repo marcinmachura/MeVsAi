@@ -1,13 +1,13 @@
 # Co poeta miał na myśli?
-czyli, [czy AI jest inteligentnejsze od carskiego cenzora](https://www.youtube.com/watch?v=L4jYV0oH65E)?
+czyli: [czy AI jest inteligentniejsze od carskiego cenzora](https://www.youtube.com/watch?v=L4jYV0oH65E)?
 
-Okazuje się, że to pytanie spędzające sen z powiek w liceum dziś jest całkiem ciekawym kryterium porównawczym dla AI. Też sobie nie radzą. Albo inaczej: kiedy znają wiersz, a najlepiej także widziały gdzieś w sieci jego recenzję, radzą sobie dużo lepiej. Często jednak, nawet znając szczegóły, popadają w manierę generalizacji i wodolejstwa.
+Okazuje się, że to pytanie, które w liceum spędzało sen z powiek, dziś jest całkiem ciekawym kryterium porównawczym dla AI. Modele też sobie z nim nie radzą. Albo inaczej: kiedy znają wiersz, a najlepiej także widziały gdzieś w sieci jego recenzję, radzą sobie dużo lepiej. Często jednak, nawet znając szczegóły, popadają w manierę generalizacji i wodolejstwa.
 
-To jest trochę naciągany problem. Na pewno nie jest kluczowy dla 99,9% ludzkości i nie będzie z tego pieniędzy, ale przynajmniej można próbować skonstruować taki _benchmark_.
+To trochę naciągany problem. Na pewno nie jest kluczowy dla 99,9% ludzkości i nie będzie z tego pieniędzy, ale przynajmniej można próbować skonstruować taki _benchmark_.
 
-Z racji tego, że dostęp miałem tylko do GPT Sol i Sonnet 5.5, które są zresztą dosyć podobnymi modelami, będą to uczciwe zawody.
+Ponieważ miałem dostęp tylko do GPT Sol i Sonnet 5.5, które są zresztą dość podobnymi modelami, będą to uczciwe zawody.
 
-## Wynki
+## Wyniki
 | Wiersz | Autor | Fragment | Pytanie | Sonnet | GPT 6.1 Sol |
 | --- | --- | --- | --- | --- | --- |
 | Przejście Polaków przez Morze Czerwone | Jacek Kaczmarski | "Mnie na nieznane brzegi wyrzuciło i stąd ta piosenka której by nie było" | o czym jest? | źle | dobrze |
@@ -19,13 +19,13 @@ Z racji tego, że dostęp miałem tylko do GPT Sol i Sonnet 5.5, które są zres
 | John Burton | Ildefons Gałczyński | "w obozie nie najlepiej szło jadało się tłuczone szkło" | o co chodzi? | średnio | średnio |
 | **Suma** | | | | 2.5/7 | 3.5/7 |
 
-Niestety nie mam wyników z przed roku, gdy próbowałem się podobnie bawić, ale poza tekstem Jana Wołka, który jest zamknięty, to wszystkie te piosenki były za trudne dla AI. Czyli na pewno możemy odnotować postęp.
+Niestety nie mam wyników sprzed roku, gdy próbowałem się podobnie bawić, ale poza tekstem Jana Wołka, który jest zamknięty, to wszystkie te piosenki były za trudne dla AI. Czyli na pewno możemy odnotować postęp.
 
 
 ### Pełne konwersacje
 
 ### Przejście Polaków przez Morze Czerwone
-Wiersz Jacka Kaczmarskiego z 1983 o oczywistej anty-stanowojennej wymowie i wątkach osobistych (emigracja do Monachium)
+Wiersz Jacka Kaczmarskiego z 1983 roku o oczywistej antystanowojennej wymowie i wątkach osobistych (emigracja do Monachium).
 
 Na brzegu stojąc, drżące plemię Boże,\
 Patrzymy w trwodze na Czerwone Morze.\
@@ -95,8 +95,8 @@ I stąd ta piosenka, której by nie było!
 #### Pytanie i odpowiedzi
 > o czym jest ten wiersz  [.. tu wklejam cały wiersz .. ]
 
-Jeśli się zna klucz, czyli rok, w którym był napisany, to wszystkie metafory stają się oczywiste.
-Kiedy zaczniemy drążyć, np. czym jest ta czerwona mogiła, kim są ci z ustami pod wodą, kim był ten niespełna rozumu itd., to wtedy już trochę twarde skojarzenia mu się rozmywają (blok wschodni/PRL; ci, co nie wyemigrowali; np. Wałęsa), a może po prostu nie lubi, jak się pluje na komunizm:)
+Jeśli zna się klucz, czyli rok, w którym wiersz został napisany, wszystkie metafory stają się oczywiste.
+Kiedy zaczynamy drążyć, np. pytać, czym jest ta czerwona mogiła, kim są ci z ustami pod wodą i kim był ten niespełna rozumu, twarde skojarzenia (blok wschodni/PRL, ci, którzy nie wyemigrowali, np. Wałęsa) zaczynają się rozmywać. A może model po prostu nie lubi, gdy pluje się na komunizm :)
 
 GPT 6.1 poradził sobie bardzo dobrze, choć przy drążeniu kolejnych zwrotek widać braki.
 
@@ -168,7 +168,7 @@ Najbardziej naturalne odczytanie historyczne wiąże rozstąpienie morza z prze�
 
 ### Elekcja
 
-Wiersz z programu "Sarmatia", raczej bez podekstów. 
+Wiersz z programu „Sarmatia”, raczej bez podtekstów.
 
 Ramiona do nieba wzniesione wzburzeniem \
 Łacina spieniona na wargach \
@@ -198,7 +198,7 @@ Wśród jęków, modlitw i przekleństw
 #### Pytanie i odpowiedzi
 >o co chodzi z "Szablistą polszczyzną tnie świszcze i chrzęści; przekleństwo skarga modlitwa" w wierszu "Elekcja" Kaczmarskiego?
 
-Tym razem chodzi mi o środki stylistyczne, w szczególności o jędrny łamaniec językowy, który dla kogoś kto nie słyszy, jest doświadczeniem czysto teoretycznym. I modele sobie poradziły bardzo dobrze. 
+Tym razem chodzi mi o środki stylistyczne, w szczególności o jędrny łamaniec językowy, który dla kogoś, kto nie słyszy, pozostaje doświadczeniem czysto teoretycznym. Modele poradziły sobie bardzo dobrze.
 
 #### GPT 6.1 Sol
 
@@ -219,7 +219,7 @@ Składnia jest celowo przestawiona. W bardziej zwyczajnym szyku brzmiałoby to:
 [..]
 
 ### Nie ma szatana
-Jest to dosyć beztroska piosenka Skaldów, z wierszem Agnieszki Osieckiej, która była naprawdę wybitną poetką i jej teksty do piosenek zawsze mają "to coś"
+To dość beztroska piosenka Skaldów z tekstem Agnieszki Osieckiej, naprawdę wybitnej poetki, której teksty piosenek zawsze mają „to coś”.
 
 Oj dana dana dana da dana \
 Oj dana dana dana da dana 
@@ -246,7 +246,7 @@ Oj dana
 #### Pytanie i odpowiedzi
 > w piosence Skaldów jest fraza :"Życie jest formą istnienia białka, ale w kominie coś czasem załka." - o co w niej chodzi?
 
-Sztuczna inteligencja dobrze odkrywa powiązanie z Engelsem, ale omija narzucające się powiązanie z Holocaustem. Także interpretacja AI nie jest zła, ale własnie brakuje tam podrapania nieco głębiej. Zwłaszcza, że Osiecka miała kontakt z ocalałymi i napisała już wcześńiej wiersze wprost mówiące o Zagładzie. 
+Sztuczna inteligencja dobrze odkrywa powiązanie z Engelsem, ale omija narzucające się powiązanie z Holokaustem. Interpretacja AI nie jest zła, ale brakuje w niej pogłębienia. Zwłaszcza że Osiecka miała kontakt z ocalałymi i napisała już wcześniej wiersze wprost mówiące o Zagładzie.
 
 #### GPT 6.1 Sol
 
@@ -283,7 +283,7 @@ Sztuczna inteligencja dobrze odkrywa powiązanie z Engelsem, ale omija narzucaj�
 >Jeśli podasz tytuł albo kontekst całej piosenki, mogę spróbować dopasować interpretację do reszty tekstu.
 
 ### Dydaktyka
-Wiersz mało znanego barda lat '80, czyli Marka Tercza. "Tego który się nie sprzedał" - jak mówiło się na mieście. 
+Wiersz mało znanego barda z lat 80., Marka Tercza. „Tego, który się nie sprzedał” – jak mówiło się na mieście.
 
 Nauczyli mnie prosto się trzymać \
 I głowę nosić jak pan \
@@ -330,7 +330,7 @@ A przecież przygarnął ją wujek..
 >
 > dlaczego wujek?
 
-Tu tak naprawdę pytanie jest dosyć trudne, bo wiersz jest niszowy (ale Claude go znalazł!) i dodatkowo interpretacja posaci wujka, czyli takiego miksu stereotypowego "Janusza-wąsacza" oraz "wujka-wariatuncia", czyli kogoś kto właśnie żyje na marginesie ze swoimi teoriami spiskowymi, jest dosyć subtelna. Każdy chyba zna taką osobę, choć ja akurat nie mam takiego wujka, ale już znajomych Ojca - owszem:) Dla modeli jest to interpretacja nie do przejścia. Claude nie jest jakos mądrzejszy dzięki temu, że odgadł autora. 
+To pytanie jest naprawdę trudne, bo wiersz jest niszowy (ale Claude go znalazł!), a interpretacja postaci wujka jest dość subtelna. To swoisty miks stereotypowego „Janusza-wąsacza” i „wujka-wariatunia”, czyli kogoś, kto żyje na marginesie ze swoimi teoriami spiskowymi. Każdy chyba zna taką osobę. Ja akurat nie mam takiego wujka, ale znajomych ojca – owszem :) Dla modeli ta interpretacja jest nie do przejścia. Claude nie jest jakoś mądrzejszy tylko dlatego, że odgadł autora.
 
 #### GPT 6.1 Sol
 >Sens tej zwrotki odczytuję tak: prawdziwa mądrość objawia się nie w blasku, prestiżu czy wzniosłych opowieściach o niej, lecz w dobroci — tutaj w zwyczajnym karmieniu bezdomnych psów. Autorstwa nie udało mi się jednak wiarygodnie ustalić, więc nie chcę przypisywać tych słów konkretnemu poecie na podstawie samego stylu.
@@ -422,7 +422,7 @@ Słup jak słup – a przyjaciela ma się raz!
 #### Pytanie 
 > o jakich dwóch przyjaciół tu chodzi: [.. wiersz ..]
 
-Oba modele nie załapały związku treści wiersza z relacja ZSRR-Polska, odwieczna przyjaźń (wpisana do konstytucji PRLu w 1976) i ryzyka "bratniej pomocy". Dodatkowo Claude pozmyślał autorów i inne tytuły. 
+Oba modele nie załapały związku treści wiersza z relacją między ZSRR a Polską, hasłem „odwiecznej przyjaźni” (wpisanym do konstytucji PRL-u w 1976 roku) oraz ryzykiem „bratniej pomocy”. Dodatkowo Claude pozmyślał autorów i inne tytuły.
 
 #### GPT 6.1 Sol
 > **To „Przyjaciele” Jacka Kaczmarskiego**. W samym tekście nie ma wskazania, że chodzi o dwie konkretne postacie historyczne — najostrożniej odczytać ich jako symbolicznych towarzyszy broni, których przyjaźń trwa tylko dopóty, dopóki jednakowo patrzą na świat. Nie znalazłem potwierdzenia, które pozwalałoby przypisać im konkretne nazwiska.
@@ -449,7 +449,7 @@ Oba modele nie załapały związku treści wiersza z relacja ZSRR-Polska, odwiec
 >Puenta „Słup jak słup – a przyjaciela ma się raz!” jest gorzko ironiczna: nikt nie wie, co zobaczył ten na słupie, a zabójca usprawiedliwia się wartością przyjaźni.
 
 ### Golgota
-Wiersz Jana Wołka wykonywany przez Elizę Banasik na 46 Studenckim Festiwalu Piosenki
+Wiersz Jana Wołka wykonywany przez Elizę Banasik na 46. Studenckim Festiwalu Piosenki.
 
 Już nikt nie zmienia jej bandaży \
 i smród przewala się powietrzem\
@@ -492,7 +492,7 @@ Popatrz te krzyże są dla nas
 #### Pytanie i odpowiedzi.
 > O czym jest ten wiersz?
 
-Wiersz jest dosyć prosty w interpretacji, ale tekst musiałem spisać ze słuchu, bo nie znalazłem nigdzie jego treści. Nie da się go nigdzie przeczytać, ani przeczytać jego recenzji czy analizy. Oba modele poradziły sobie bardzo dobrze.
+Wiersz jest dość prosty w interpretacji, ale tekst musiałem spisać ze słuchu, bo nie znalazłem go nigdzie w wersji tekstowej. Nie da się też znaleźć jego recenzji ani analizy. Oba modele poradziły sobie bardzo dobrze.
 
 #### GPT 6.1 Sol
 > To wiersz o miłości, która umiera powoli, w upokorzeniu i opuszczeniu — oraz o winie tych, którzy zamiast ją ratować, bezradnie lub niecierpliwie patrzą na jej konanie. Nie chodzi tu po prostu o rozstanie: miłość została przedstawiona jako wyniszczona chora, a następnie jako ofiara ukrzyżowania. Zakończenie sugeruje, że osoby mówiące w wierszu nie są niewinnymi świadkami jej śmierci.
@@ -510,10 +510,10 @@ Wiersz jest dosyć prosty w interpretacji, ale tekst musiałem spisać ze słuch
 > Puenta. Ostatnia zwrotka przesuwa perspektywę: „wolne są zbrodniarzy krzyże”, więc krzyże, na których wisieli łotrzy, są puste. Mówiący zaprasza do podejścia bliżej i konstatuje: „te krzyże są dla nas”. Wspólnota, która patrzyła z boku, sama zajmuje miejsce skazanych. Tego, co umiera, nie da się już ratować, a współwina oznacza, że zginiemy razem z nią.
 
 ### John Burton
-Wiersz Konstantego Ildefonsa Gałczyńskiego, który dostarcza nam jakieś okruch jego wspomnień z czasów gdy był więzniem stalagu, w charakterystyczny, humorystyczny sposób.
+Wiersz Konstantego Ildefonsa Gałczyńskiego, który w charakterystyczny, humorystyczny sposób przekazuje nam kilka okruchów jego wspomnień z czasów, gdy był więźniem stalagu.
 
 W niewoli nienajlepiej szło,\
-jadało sic tłuczone szkło,\
+jadało się tłuczone szkło,\
 lecz był Irlandczyk, tak jak Shaw:\
 Johnny Burton.
 
@@ -544,7 +544,7 @@ Johnny Burton.
 > jadało się tłuczone szkło" \
 > o co tu chodzi?
 
-Modele miały problem z odgadnięciem autora, ale dobrze kombinowały, już kiedy im się podpowiedziało nazwisko poety, to wszystko rozgryzły.
+Modele miały problem z odgadnięciem autora, ale dobrze kombinowały. Kiedy podpowiedziałem im nazwisko poety, rozgryzły resztę.
 ### GPT 6.1 Sol
 >Najbardziej naturalne odczytanie to hiperbola: „w niewoli było tak źle, że zamiast normalnego jedzenia dostawało się coś równie okropnego jak tłuczone szkło”. Z samych tych dwóch wersów nie wynika, że chodzi o rzeczywiste karmienie jeńców szkłem.
 >
@@ -586,7 +586,7 @@ to wiersz Gałczyńskiego
 ## Luźne wnioski
 (niepoparte danymi)
 
-Oczywistym powodem braków w znajomości polskiej poezji jest to, że są to niszowe (tzn. niebędące lekturami szkolnymi) wiersze. Mało danych treningowych. Dodatkowo podejrzewam, że „interpretacja polskiej poezji” nie jest zadaniem, na którym dokonuje się _fine-tuningu_ tych modeli.
+Powodem braków w znajomości polskiej poezji jest prawdopodobnie to, że są to niszowe wiersze, czyli takie, które nie należą do kanonu lektur szkolnych. Danych treningowych jest niewiele. Podejrzewam też, że „interpretacja polskiej poezji” nie jest zadaniem, na którym te modele są _fine-tunowane_.
 
 O pisanie wierszy po polsku nawet ich nie pytałem, ale przypomina mi to inny problem, który mam z AI: obecnie dużo łatwiej jest skłonić Claude'a do napisania nowego Lightrooma niż skłonić istniejące narzędzia fotograficzne do selekcji zdjęć (Lightroom, Aftershoot etc.). Google Photos sprzed ponad dekady radził sobie porównywalnie dobrze. Tu nie chodzi o to, że te narzędzia wybierają i obrabiają zdjęcia źle, ale o to, że „nie mają tego czegoś”. Czyli o kreatywność, która w ogóle jest bardzo rzadka, nawet u ludzi. Netflix czy polska kinematografia płacą grube miliony, a produkcje są miałkie. Zresztą pewnie mają takie być z definicji :) I o ile zgaduję, że problem analizy wierszy i obróbki/selekcji zdjęć jest spokojnie rozwiązywalny przez AI, jeśli tylko poważni gracze się za to wezmą, o tyle kwestia kreatywności nie jest prosta. Nie doczekamy się AI masowo produkującej arcydzieła, bo to jak z jajkiem Kolumba: za pierwszym razem to odkrycie, a potem nawet kucharka potrafi to zrobić.
 
